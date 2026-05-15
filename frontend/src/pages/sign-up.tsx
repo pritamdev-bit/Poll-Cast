@@ -151,6 +151,8 @@ export default function SignUpPage() {
                             className="w-full px-2 py-2 rounded-md border outline-none focus:border-[#74c700] transition"
                         />
 
+                        <div id="clerk-captcha" />
+
                         <button
                             type="submit"
                             disabled={loading}
