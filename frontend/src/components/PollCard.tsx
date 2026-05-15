@@ -1,16 +1,15 @@
 import {
   BarChart3,
   FileText,
-  MoreVertical,
   CircleCheckBig
 } from 'lucide-react'
 
-type TagVariant = 'default' | 'outline' | 'warning'
+// type TagVariant = 'default' | 'outline' | 'warning'
 
-interface Tag {
-  label: string
-  variant: TagVariant
-}
+// interface Tag {
+//   label: string
+//   variant: TagVariant
+// }
 
 interface Poll {
   id: number

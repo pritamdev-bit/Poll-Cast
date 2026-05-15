@@ -4,14 +4,6 @@ import {
   FileText,
   Archive,
 } from 'lucide-react'
-import { useState } from 'react';
-
-const navItems = [
-  { icon: LayoutGrid, label: 'All Polls', active: true },
-  { icon: Radio, label: 'Live Now', count: 3 },
-  { icon: FileText, label: 'Drafts', count: 4 },
-  { icon: Archive, label: 'Closed' },
-]
 
 export function Sidebar({ active, setActive }: { active: string, setActive: any }) {
   // const [active, setActive] = useState("All Polls");

@@ -1,4 +1,3 @@
-import { Search, ChevronDown, } from 'lucide-react'
 import { PollCard } from './PollCard'
 import { useUser } from '@clerk/react'
 
@@ -71,6 +70,7 @@ export function PollList({ active }: { active: string }) {
         <h1 className="text-4xl font-semibold text-foreground">Hi, {user?.firstName || user?.primaryEmailAddress?.emailAddress}</h1>
       </div>
       <h2 className="text-2xl font-semibold text-foreground mb-4">All Polls</h2>
+      {active === "Live" && <span className="text-xs text-muted-foreground">Live Polls</span>}
 
       {/* Search and Filters : Todo*/}
 

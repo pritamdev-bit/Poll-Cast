@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { Upload, Settings } from "lucide-react"
+import { Upload } from "lucide-react"
 import NavbarDashboard from "../components/NavbarDashboard"
 import { useParams } from "react-router-dom"
 import { getToken } from "@clerk/react"

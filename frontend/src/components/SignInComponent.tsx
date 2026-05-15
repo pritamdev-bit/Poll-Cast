@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function SignInComponent() {
   return (
     <div className='bg-[#F7F8F1]'>
